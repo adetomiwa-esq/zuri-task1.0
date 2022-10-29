@@ -60,6 +60,7 @@
 
 a {
   display: block;
+  color: black;
 }
 
 a button {
@@ -146,7 +147,7 @@ a button {
   }
 
   .share {
-      margin-left: 90%;
+      margin-left: 85%;
   }
 
   .links {
