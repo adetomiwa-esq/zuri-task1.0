@@ -5,28 +5,28 @@ import slack from '../images/download.png'
 function Links() {
   return (
     <div className='links'>
-        <a href='https://twitter.com/adetomiwa_akin/status/1548012467741024257?s=21'>
-            <button id='twitter-link'>Twitter link</button>
+        <a className='button' href='https://twitter.com/adetomiwa_akin/status/1548012467741024257?s=21' id='twitter-link'>
+            Twitter link
         </a>
 
-        <a href='https://training.zuri.team'>
-            <button id='btn__zuri'>Zuri Team</button>
+        <a className='button' href='https://training.zuri.team' id='btn__zuri'>
+            Zuri Team
         </a>
 
-        <a href='http://books.zuri.team'>
-            <button id='books' title='zuri books'>Zuri Books</button>
+        <a className='button' href='http://books.zuri.team' id='books' title='zuri books'>
+           <sub> Zuri Books</sub>
         </a>
 
-        <a href='https://books.zuri.team/python-for-beginners?ref_id=Adetomiwa'>
-            <button id='btn__python'>Python Books</button>
+        <a className='button' href='https://books.zuri.team/python-for-beginners?ref_id=Adetomiwa' id='btn__python'>
+            <sub>Python Books</sub>
         </a>
 
-        <a href='https://backgroung.zuri.team'>
-            <button id='pitch'>Background checks on coders</button>
+        <a className='button' href='https://backgroung.zuri.team' id='pitch'>
+            <sub>Background checks on coders</sub>
         </a>
 
-        <a href='https://books.zuri.team/design-rules'>
-            <button id='book__design'>Design Books</button>
+        <a className='button' href='https://books.zuri.team/design-rules' id='book__design'>
+           <sub> Design Books</sub>
         </a>
         <div className='base-icon'>
             <i className='slack'><img src={slack} /></i>
