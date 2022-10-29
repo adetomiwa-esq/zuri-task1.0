@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/zuri-task1.0/static/css/main.c6204706.css",
+    "main.js": "/zuri-task1.0/static/js/main.051c6c15.js",
+    "static/media/profile-img.JPG": "/zuri-task1.0/static/media/profile-img.8fda649ff3b8e2c8a4d7.JPG",
+    "index.html": "/zuri-task1.0/index.html",
+    "main.c6204706.css.map": "/zuri-task1.0/static/css/main.c6204706.css.map",
+    "main.051c6c15.js.map": "/zuri-task1.0/static/js/main.051c6c15.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c6204706.css",
+    "static/js/main.051c6c15.js"
+  ]
+}
