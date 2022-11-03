@@ -12,6 +12,7 @@ function Contact() {
                 <div className='first-name'>
                     <p>First name</p>
                     <input 
+                        id='first_name'
                         className='letter'
                         type='text'
                         placeholder='Enter your first name'
@@ -21,6 +22,7 @@ function Contact() {
                 <div className='last-name'>
                     <p>Last name</p>
                     <input 
+                        id='last_name'
                         className='letter'
                         type='text'
                         placeholder='Enter your last name'
@@ -29,7 +31,8 @@ function Contact() {
 
                 <div className='email'>
                     <p>Email</p>
-                    <input 
+                    <input
+                        id='email'
                         className='letter'
                         type='email'
                         placeholder='yourname@email.com'
@@ -38,7 +41,8 @@ function Contact() {
 
                 <div className='message'>
                     <p>Message</p>
-                    <textarea 
+                    <textarea
+                        id='message'
                         className='letter resize'
                         placeholder="send me a message and I'll reply you as soon as possible..."
 
@@ -54,7 +58,7 @@ function Contact() {
                     </label>
                 </div>
 
-                <button className='send-msg'>
+                <button id='btn__submit' className='send-msg'>
                     Send message
                 </button>
             </form>
