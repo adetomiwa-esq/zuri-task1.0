@@ -1,6 +1,6 @@
 import React from 'react';
 import {} from 'react-icons';
-import world from '../images/ingressive.jpeg'
+import world from '../images/ingressive.jpeg';
 
 function Footer() {
   return (
@@ -8,7 +8,7 @@ function Footer() {
         <div className='zuri'>Zuri<span className='dot'>.</span>Internship</div>
         <div className='hng'>HNG Internship 9 Frontend Task</div>
         <div className='footer-end'>
-            <div><img className='world' src={world} /></div>
+            <div><img className='world' src={world} alt='globe' /></div>
             <div>
                 <div>INGRESSIVE</div>
                 <div>FOR GOOD</div>
