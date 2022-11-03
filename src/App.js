@@ -1,14 +1,20 @@
 import './App.css';
-import Profile from './components/Profile';
-import Links from './components/Links';
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Footer from './components/Footer';
+import Home from './components/Pages/Home';
+import Contact from './components/Pages/Contact';
 
 function App() {
   return (
     <div className="App">
-      <Profile />
-      <Links />
-      <Footer />
+      <BrowserRouter>
+        <Routes>
+          <Route path='/zuri-task1.0' element={<Home />} />
+          <Route path='/contact' element={<Contact />} />
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }
