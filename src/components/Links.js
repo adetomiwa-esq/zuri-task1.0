@@ -1,6 +1,6 @@
 import React from 'react'
 import { AiFillGithub } from 'react-icons/ai';
-import slack from '../images/download.png'
+import slack from '../images/download.png';
 
 function Links() {
   return (
@@ -27,6 +27,10 @@ function Links() {
 
         <a className='button' href='https://books.zuri.team/design-rules' id='book__design'>
            <sub> Design Books</sub>
+        </a>
+
+        <a className='button' href='/contact' id='contact'>
+           Contact Me
         </a>
         <div className='base-icon'>
             <i className='slack'><img src={slack} /></i>
