@@ -1,6 +1,7 @@
 import React from 'react'
 import { AiFillGithub } from 'react-icons/ai';
 import slack from '../images/download.png';
+import {Link} from 'react-router-dom'
 
 function Links() {
   return (
@@ -29,9 +30,9 @@ function Links() {
            <sub> Design Books</sub>
         </a>
 
-        <a className='button' href='/contact' id='contact'>
+        <Link to='/contact'><a className='button' href='/contact' id='contact'>
            Contact Me
-        </a>
+        </a></Link>
         <div className='base-icon'>
             <i className='slack'><img src={slack} /></i>
             <i className='git'><AiFillGithub /></i>
