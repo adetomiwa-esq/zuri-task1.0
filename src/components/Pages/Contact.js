@@ -61,7 +61,7 @@ function Contact() {
 
             if(inputs[4].checked === false){
                 valid = false
-                consent.textContent = "you are required to tick this box to continue"
+                consent.textContent = "you are required to check this box to proceed"
             }
 
             if(valid){
