@@ -70,6 +70,61 @@
     max-height: 120px;
 }
 
+.error {
+    font-size: 0.6rem;
+    color: red;
+}
+
+.load-container {
+    position: relative;
+}
+
+.load {
+    width: 20px;
+    height: 20px;
+    border: 3px solid black;
+    border-top-color: blue;
+    border-radius: 50%;
+    animation: loading 0.65s ease-in-out infinite;
+    top: -39px;
+    left: 50%;
+    position: absolute;
+    display: none;
+}
+
+.success {
+    position: absolute;
+    top: -200%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: blue;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 8px;
+    height: 40px;
+}
+
+.notification {
+    top: 20px;
+    transition: all 500ms ease;
+}
+
+.white-mark {
+    margin-left: 2px;
+}
+
+@keyframes loading {
+    from{
+        transform: rotate(0turn);
+    }
+    to{
+        transform: rotate(1turn);
+    }
+}
+
 
 @media(max-width:700px) {
     .contact-body {
