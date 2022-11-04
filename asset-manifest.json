@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/zuri-task1.0/static/css/main.56aff79b.css",
-    "main.js": "/zuri-task1.0/static/js/main.554a6325.js",
+    "main.js": "/zuri-task1.0/static/js/main.e151f988.js",
     "static/media/profile-img.JPG": "/zuri-task1.0/static/media/profile-img.8fda649ff3b8e2c8a4d7.JPG",
     "index.html": "/zuri-task1.0/index.html",
     "main.56aff79b.css.map": "/zuri-task1.0/static/css/main.56aff79b.css.map",
-    "main.554a6325.js.map": "/zuri-task1.0/static/js/main.554a6325.js.map"
+    "main.e151f988.js.map": "/zuri-task1.0/static/js/main.e151f988.js.map"
   },
   "entrypoints": [
     "static/css/main.56aff79b.css",
-    "static/js/main.554a6325.js"
+    "static/js/main.e151f988.js"
   ]
 }
