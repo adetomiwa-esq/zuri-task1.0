@@ -3,7 +3,7 @@ import '../Contact.css';
 import { GrCheckmark } from 'react-icons/gr'
 
 function Contact() {
-    const myName = 'Adetomiwa'
+    const myName = 'Akinola Kehinde'
     
     const [formData, setFormData] = useState({
         firstName: '',
