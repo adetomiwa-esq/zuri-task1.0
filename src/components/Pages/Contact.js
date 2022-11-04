@@ -3,7 +3,7 @@ import '../Contact.css';
 import { GrCheckmark } from 'react-icons/gr'
 
 function Contact() {
-
+    const myName = 'Adetomiwa'
     
     const [formData, setFormData] = useState({
         firstName: '',
@@ -129,7 +129,7 @@ function Contact() {
 
             <form className='contact-form'>
                 <div className='first-name'>
-                    <p>First name</p>
+                    <label htmlFor='first_name'>First name</label>
                     <input 
                         id='first_name'
                         className='letter value'
@@ -143,7 +143,7 @@ function Contact() {
                 </div>
 
                 <div className='last-name'>
-                    <p>Last name</p>
+                    <label htmlFor='last_name'>Last name</label>
                     <input 
                         id='last_name'
                         className='letter value'
@@ -157,7 +157,7 @@ function Contact() {
                 </div>
 
                 <div className='email'>
-                    <p>Email</p>
+                    <label htmlFor='email'>Email</label>
                     <input
                         id='email'
                         className='letter value'
@@ -171,7 +171,7 @@ function Contact() {
                 </div>
 
                 <div className='message'>
-                    <p>Message</p>
+                    <label htmlFor='message'>Message</label>
                     <textarea
                         id='message'
                         className='letter resize value'
@@ -194,7 +194,7 @@ function Contact() {
                         onChange={updateForm}
                     /><span></span>
                     <label htmlFor='isChecked'>
-                        {`You agree to providing your data to {name} who may contact you.`}
+                        {`You agree to providing your data to ${myName} who may contact you.`}
                     </label>
                     <div className='error consent'></div>
                 </div>
